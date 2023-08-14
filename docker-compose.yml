@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  matrix-federation-tester:
+    container_name: matrix-federation-tester
+    hostname: matrix-federation-tester
+    user: 65534:65534
+    read_only: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '127.0.0.1:8089:8080'
+    restart: 'always'
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
