@@ -1,20 +1,20 @@
 {
-  "name": "fed-tester",
-  "version": "1.0.0",
-  "description": "Matrix Federation test frontend",
+  "name": "Matrix Federation Tester",
+  "version": "1.0.1",
+  "description": "Matrix Federation Tester To See If Your Homeserver Is Working Correctly.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://git.lain.haus/f0x/fed-tester"
+    "url": "https://github.com/WhateverItWorks/matrix-federation-tester"
   },
   "keywords": [
     "matrix",
     "federation"
   ],
-  "author": "f0x",
+  "author": "WhateverItWorks",
   "license": "AGPL-3.0",
   "dependencies": {
     "@babel/core": "^7.2.2",
