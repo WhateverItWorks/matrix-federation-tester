@@ -39,7 +39,7 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-util": "^3.0.8",
     "jdenticon": "^2.1.1",
-    "react": "^16.6.3",
+    "react": "^18.2.0",
     "react-dom": "^16.6.3",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0",
